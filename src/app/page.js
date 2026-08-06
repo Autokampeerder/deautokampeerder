@@ -78,7 +78,7 @@ export default function Home() {
             {productsData.map((product) => (
               <div style={{position: 'relative'}} key={product.id}>
                 {product.id === 1 && <span className="card-tag">Beste Getest 2026</span>}
-                <ProductCard {...product} />
+                <ProductCard title={product.name} brand={product.category} price={product.price} image={product.image} affiliateUrl={product.link} />
               </div>
             ))}
           </div>
@@ -125,7 +125,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-4">
             {accessoriesData.map((item) => (
-              <ProductCard key={item.id} {...item} />
+              <ProductCard key={item.id} title={item.name} brand={item.brand} price={item.price} image={item.image} affiliateUrl={item.link} />
             ))}
           </div>
         </div>
