@@ -1,0 +1,88 @@
+/* Prose styling for markdown content */
+.prose {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--text-main);
+  padding-bottom: var(--spacing-xxl);
+}
+
+.prose h1, .prose h2, .prose h3 {
+  color: var(--primary);
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+
+.prose h2 {
+  font-size: 2rem;
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 8px;
+}
+
+.prose h3 {
+  font-size: 1.5rem;
+}
+
+.prose p {
+  margin-bottom: 1.5em;
+}
+
+.prose ul, .prose ol {
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+}
+
+.prose li {
+  margin-bottom: 0.5em;
+}
+
+.prose strong {
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.prose em {
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.article-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--spacing-xl) 0;
+}
+
+.article-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-bottom: var(--spacing-lg);
+  font-size: 0.9rem;
+}
+
+.article-meta span.category {
+  background: var(--secondary);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 50px;
+}
+
+.article-hero {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.article-hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

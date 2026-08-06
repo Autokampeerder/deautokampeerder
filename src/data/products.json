@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Thule Approach M",
+    "brand": "Thule",
+    "price": 2799,
+    "image": "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://www.bol.com/nl/nl/"
+  },
+  {
+    "id": 2,
+    "title": "Fjordsen Light 140",
+    "brand": "Fjordsen",
+    "price": 1450,
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://www.bol.com/nl/nl/"
+  },
+  {
+    "id": 3,
+    "title": "Dare To Be Different 140L",
+    "brand": "DTBD Outdoor",
+    "price": 1895,
+    "image": "https://images.unsplash.com/photo-1504280741562-fd0e12315105?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://www.bol.com/nl/nl/"
+  }
+]
