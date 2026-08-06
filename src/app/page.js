@@ -139,7 +139,7 @@ export default function Home() {
           </div>
           <div className="gallery-grid">
             <div className="gallery-item"><img src="https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sfeer" /></div>
-            <div className="gallery-item"><img src="https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sfeer" /></div>
+            <div className="gallery-item"><img src="https://images.unsplash.com/photo-1533575770077-052fa2c609fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sfeer" /></div>
             <div className="gallery-item"><img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sfeer" /></div>
             <div className="gallery-item"><img src="https://images.unsplash.com/photo-1525811902-f2342640856e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sfeer" /></div>
           </div>

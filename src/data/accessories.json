@@ -1,34 +1,34 @@
 [
   {
     "id": 101,
-    "title": "Thule WingBar Evo Dakdragers",
-    "brand": "Thule",
-    "price": 299,
-    "image": "https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "affiliateUrl": "https://www.bol.com/nl/nl/"
+    "name": "Thule WingBar Evo Dakdragers",
+    "price": "Vanaf € 299,-",
+    "brand": "THULE",
+    "image": "https://images.unsplash.com/photo-1541891968848-18e3dd7d2eb2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dthule%2Bwingbar%2Bevo"
   },
   {
     "id": 102,
-    "title": "Thule Velospace XT Fietsendrager",
-    "brand": "Thule",
-    "price": 649,
-    "image": "https://images.unsplash.com/photo-1571333253723-5e92978eb3cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "affiliateUrl": "https://www.bol.com/nl/nl/"
+    "name": "Thule Velospace XT Fietsendrager",
+    "price": "Vanaf € 649,-",
+    "brand": "THULE",
+    "image": "https://images.unsplash.com/photo-1511994298241-608e28f14fde?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dthule%2Bvelospace%2Bxt"
   },
   {
     "id": 103,
-    "title": "Darche Eclipse 270 Luifel",
-    "brand": "Darche",
-    "price": 995,
-    "image": "https://images.unsplash.com/photo-1533575770077-052fa2c609fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "affiliateUrl": "https://www.bol.com/nl/nl/"
+    "name": "Darche Eclipse 270 Luifel",
+    "price": "Vanaf € 995,-",
+    "brand": "DARCHE",
+    "image": "https://images.unsplash.com/photo-1504280741562-fd0e12315105?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dauto%2Bluifel"
   },
   {
     "id": 104,
-    "title": "Anti-Condensmat 140x240",
-    "brand": "Daktent Expert",
-    "price": 119,
-    "image": "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "affiliateUrl": "https://www.bol.com/nl/nl/"
+    "name": "Anti-Condensmat 140x240",
+    "price": "Vanaf € 119,-",
+    "brand": "DE AUTOKAMPEERDER",
+    "image": "https://images.unsplash.com/photo-1622313627068-12d7879e6ea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Danti%2Bcondensmat%2Bdaktent"
   }
 ]

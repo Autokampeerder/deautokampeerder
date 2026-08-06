@@ -15,9 +15,9 @@ export default function Footer() {
           </div>
           <div className="flex flex-col">
             <strong style={{marginBottom: '1rem'}}>Informatie</strong>
-            <a href="#" style={{opacity: 0.8, marginBottom: '0.5rem'}}>Over Ons</a>
+            <a href="/over-ons" style={{opacity: 0.8, marginBottom: '0.5rem'}}>Over Ons</a>
+            <a href="/disclaimer" style={{opacity: 0.8, marginBottom: '0.5rem'}}>Disclaimer</a>
             <a href="#" style={{opacity: 0.8, marginBottom: '0.5rem'}}>Contact</a>
-            <a href="#" style={{opacity: 0.8, marginBottom: '0.5rem'}}>Privacy Policy</a>
           </div>
         </div>
       </div>
