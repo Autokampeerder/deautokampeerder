@@ -1,34 +1,34 @@
 [
   {
     "id": 1,
-    "name": "Thule Approach M - Hardshell Daktent",
-    "price": "2.599,-",
-    "category": "Hardshell",
+    "name": "Dutch Mountains Fold2",
+    "price": "1.349,-",
+    "category": "Hardcase",
     "image": "https://images.unsplash.com/photo-1525811902-f2342640856e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dthule%2Bapproach"
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddutch%2Bmountains%2Bfold2"
   },
   {
     "id": 2,
-    "name": "Sheepie Yuna 140 - Softshell Daktent",
-    "price": "1.489,-",
-    "category": "Softshell",
-    "image": "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dsheepie%2Byuna"
+    "name": "Dutch Mountains Fold4",
+    "price": "1.799,-",
+    "category": "Hardcase Familie",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddutch%2Bmountains%2Bfold4"
   },
   {
     "id": 3,
-    "name": "Dare To Be Different 140S",
-    "price": "1.550,-",
+    "name": "VEVOR Daktent",
+    "price": "799,-",
     "category": "Softshell",
-    "image": "https://images.unsplash.com/photo-1533575770077-052fa2c609fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddare%2Bto%2Bbe%2Bdifferent%2Bdaktent"
+    "image": "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dvevor%2Bdaktent"
   },
   {
     "id": 4,
-    "name": "Ocean Cross Sahara - Familie Daktent",
-    "price": "2.195,-",
-    "category": "Hardshell",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dfamilie%2Bdaktent"
+    "name": "Dutch Mountains Anwing-Fold2 Luifel",
+    "price": "149,-",
+    "category": "Accessoire",
+    "image": "https://images.unsplash.com/photo-1533575770077-052fa2c609fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddutch%2Bmountains%2Banwing"
   }
 ]
