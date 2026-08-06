@@ -100,7 +100,7 @@ export default function Home() {
         <div className="container">
           <div className="feature-block">
             <div className="feature-image">
-              <img src="https://images.unsplash.com/photo-1504280741562-fd0e12315105?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Materialen en Innovatie" />
+              <img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Materialen en Innovatie" />
             </div>
             <div className="feature-text">
               <h2>Topkwaliteit Materialen</h2>

@@ -17,7 +17,7 @@ export default function Footer() {
             <strong style={{marginBottom: '1rem'}}>Informatie</strong>
             <a href="/over-ons" style={{opacity: 0.8, marginBottom: '0.5rem'}}>Over Ons</a>
             <a href="/disclaimer" style={{opacity: 0.8, marginBottom: '0.5rem'}}>Disclaimer</a>
-            <a href="#" style={{opacity: 0.8, marginBottom: '0.5rem'}}>Contact</a>
+            <a href="/contact" style={{opacity: 0.8, marginBottom: '0.5rem'}}>Contact</a>
           </div>
         </div>
       </div>
