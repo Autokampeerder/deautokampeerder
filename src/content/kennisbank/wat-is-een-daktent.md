@@ -27,18 +27,20 @@ Wil je weten of jouw auto geschikt is? Lees dan ook onze gids: [Past een daktent
 ![Daktent opstelling met luifel in het bos](/images/blue-car-roof-tent.png)
 
 ## Hardshell vs Softshell: Welk type past bij jou?
-Grofweg zijn daktenten onder te verdelen in twee categorieën:
+Grofweg zijn daktenten unter te verdelen in twee categorieën:
 
 - **Hardshell Daktenten:** Gemaakt van een harde ABS- of aluminium koffer. Ze klappen supersnel open en zijn zeer gestroomlijnd op de snelweg. Bekijk bijvoorbeeld de populaire [Monster Shop Auto Daktent](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dmonster%2Bshop%2Bdaktent).
 - **Softshell Daktenten:** Klappen open als een boek en bieden een enorme leefruimte voor gezinnen, zoals de [Offlander Fold 4 Daktent](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dofflander%2Bfold%2B4).
 
 Voor een gedetailleerde vergelijking lees je onze diepgaande gids: [Hardshell vs Softshell Daktent: 7 Overweldigende Voordelen](/kennisbank/voordelen-van-een-hardshell-daktent-ten-opzichte-van-een-softshell).
 
+## Maak je uitrusting compleet
+Naast een daktent heb je uiteraard een goede set [gecertificeerde dakdragers](/dakdragers) nodig. Wil je schaduw creëren rondom je auto? Bekijk dan de [Waterdichte Autoluifel (300x200 cm)](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fwaterdichte-autoluifel-voor-campers-en-suv-s-300x200-cm%2F9300000250962807%2F).
+
+Of wil je heerlijk buiten koken op de camping na een lange dag rijden? Met een veelzijdige Cadac Skottelbraai maak je binnen een handomdraai een compleet diner klaar.
+
 > 🍳 **Buiten Koken op de Camping:** CADAC Carri Chef 40 BBQ met Paellapan.
 >
 > [Bekijk Cadac BBQ & Prijs &rarr;](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fcarri-chef-40-bbq-paella-pan%2F9300000195394468%2F)
-
-## Maak je uitrusting compleet
-Naast een daktent heb je uiteraard een goede set [gecertificeerde dakdragers](/dakdragers) nodig. Wil je schaduw creëren rondom je auto? Bekijk dan de [Waterdichte Autoluifel (300x200 cm)](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fwaterdichte-autoluifel-voor-campers-en-suv-s-300x200-cm%2F9300000250962807%2F).
 
 Benieuwd naar het volledige aanbod? Bekijk direct al onze [daktenten vergelijkingen](/daktenten).
