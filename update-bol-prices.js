@@ -3,17 +3,21 @@ const path = require('path');
 const https = require('https');
 require('dotenv').config({ path: path.join(__dirname, '.env.local') });
 
-const clientId = process.env.BOL_CLIENT_ID || '28a43565-4680-4276-a204-63e910e1714b';
+const clientId = process.env.BOL_CLIENT_ID;
 const clientSecret = process.env.BOL_CLIENT_SECRET;
 
 const dataDir = path.join(__dirname, 'src', 'data');
 const files = ['daktenten.json', 'dakdragers.json', 'fietsendragers.json', 'power.json', 'accessoires.json'];
 
-// Step A: Obtain OAuth Access Token from Bol.com
+function formatPrice(num) {
+  if (typeof num !== 'number') return num;
+  return num.toLocaleString('nl-NL', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
 function getAccessToken(id, secret) {
   return new Promise((resolve, reject) => {
-    if (!secret) {
-      return reject(new Error('BOL_CLIENT_SECRET is missing. Please set it in .env.local'));
+    if (!id || !secret) {
+      return reject(new Error('BOL_CLIENT_ID or BOL_CLIENT_SECRET is missing in .env.local'));
     }
 
     const authHeader = 'Basic ' + Buffer.from(`${id}:${secret}`).toString('base64');
@@ -49,16 +53,16 @@ function getAccessToken(id, secret) {
   });
 }
 
-// Step B: Query Product Data / Price by EAN from Marketing Catalog API
-function fetchProductByEan(token, ean) {
-  return new Promise((resolve, reject) => {
+function fetchBestOfferByEan(token, ean) {
+  return new Promise((resolve) => {
     const options = {
       hostname: 'api.bol.com',
-      path: `/marketing/catalog/v1/products/${ean}?country-code=NL`,
+      path: `/marketing/catalog/v1/products/${ean}/offers/best?country-code=NL`,
       method: 'GET',
       headers: {
         'Authorization': `Bearer ${token}`,
-        'Accept': 'application/json'
+        'Accept': 'application/json',
+        'Accept-Language': 'nl-NL'
       }
     };
 
@@ -66,76 +70,104 @@ function fetchProductByEan(token, ean) {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
-        try {
-          const parsed = JSON.parse(data);
-          resolve(parsed);
-        } catch (e) {
-          reject(e);
-        }
+        try { resolve(JSON.parse(data)); } catch (e) { resolve(null); }
       });
-    }).on('error', reject);
+    }).on('error', () => resolve(null));
   });
 }
 
+function fetchMediaByEan(token, ean) {
+  return new Promise((resolve) => {
+    const options = {
+      hostname: 'api.bol.com',
+      path: `/marketing/catalog/v1/products/${ean}/media?country-code=NL`,
+      method: 'GET',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/json',
+        'Accept-Language': 'nl-NL'
+      }
+    };
+
+    https.get(options, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        try { resolve(JSON.parse(data)); } catch (e) { resolve(null); }
+      });
+    }).on('error', () => resolve(null));
+  });
+}
+
+function selectBestImage(mediaData) {
+  if (!mediaData || !mediaData.images || mediaData.images.length === 0) return null;
+  
+  // Get primary image (order 1)
+  const primaryImg = mediaData.images.find(img => img.order === 1) || mediaData.images[0];
+  if (!primaryImg || !primaryImg.renditions || primaryImg.renditions.length === 0) return null;
+
+  // Pick a rendition around 550px - 1200px width
+  const preferredRendition = primaryImg.renditions.find(r => r.width >= 500 && r.width <= 1200) ||
+                             primaryImg.renditions[primaryImg.renditions.length - 1];
+  
+  return preferredRendition ? preferredRendition.url : null;
+}
+
 async function run() {
-  console.log('--- Starting Bol.com Price Synchronization ---');
-  if (!clientSecret) {
-    console.error('ERROR: BOL_CLIENT_SECRET environment variable is missing.');
-    console.log('Please add BOL_CLIENT_SECRET=<your_secret> to .env.local file.');
-    return;
-  }
+  console.log('==================================================');
+  console.log('  BOL.COM API LIVE PRICES & IMAGES SYNCHRONIZER  ');
+  console.log('==================================================\n');
 
   try {
     console.log('1. Authenticating with Bol.com OAuth token endpoint...');
     const token = await getAccessToken(clientId, clientSecret);
-    console.log('✓ Access token received successfully!');
+    console.log('✓ Token obtained successfully!\n');
+
+    let totalUpdatedPrices = 0;
+    let totalUpdatedImages = 0;
 
     for (const file of files) {
       const filePath = path.join(dataDir, file);
       if (!fs.existsSync(filePath)) continue;
 
-      console.log(`\nUpdating prices for ${file}...`);
+      console.log(`Processing category: ${file}`);
       const products = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-      let updatedCount = 0;
 
       for (const product of products) {
         if (!product.ean) {
-          console.log(`  [SKIP] ${product.name} (No EAN code)`);
+          console.log(`  [SKIP] ${product.name} (No EAN)`);
           continue;
         }
 
-        try {
-          console.log(`  Querying API for EAN ${product.ean} (${product.name})...`);
-          const apiData = await fetchProductByEan(token, product.ean);
-          
-          // Try to locate price in API response
-          let newPrice = null;
-          if (apiData.offers && apiData.offers.length > 0) {
-            newPrice = apiData.offers[0].price;
-          } else if (apiData.price) {
-            newPrice = apiData.price;
-          }
-
-          if (newPrice) {
-            console.log(`  ✓ Updated price: ${product.price} -> € ${newPrice}`);
-            product.price = `${newPrice}`;
-            updatedCount++;
-          } else {
-            console.log(`  ? No offer/price found in API response for EAN ${product.ean}`);
-          }
-        } catch (err) {
-          console.error(`  ! Error querying EAN ${product.ean}: ${err.message}`);
+        // Fetch price
+        const offerData = await fetchBestOfferByEan(token, product.ean);
+        if (offerData && typeof offerData.price === 'number') {
+          product.price = formatPrice(offerData.price);
+          totalUpdatedPrices++;
         }
 
-        // Sleep briefly to respect API rate limits
-        await new Promise(r => setTimeout(r, 500));
+        // Fetch image
+        const mediaData = await fetchMediaByEan(token, product.ean);
+        const imageUrl = selectBestImage(mediaData);
+        if (imageUrl) {
+          product.image = imageUrl;
+          totalUpdatedImages++;
+        }
+
+        console.log(`  ✓ ${product.name} -> Price: € ${product.price} | Image: ${imageUrl ? 'Synced' : 'Kept current'}`);
+
+        // Rate limit pause
+        await new Promise(r => setTimeout(r, 400));
       }
 
       fs.writeFileSync(filePath, JSON.stringify(products, null, 2), 'utf-8');
-      console.log(`Finished ${file} (${updatedCount} prices updated).`);
+      console.log(`Finished ${file}.\n`);
     }
 
-    console.log('\n✓ Price synchronization complete!');
+    console.log('==================================================');
+    console.log(`✓ Sync complete! ${totalUpdatedPrices} prices and ${totalUpdatedImages} images synced.`);
+    console.log('==================================================');
+
   } catch (err) {
     console.error('Fatal API Error:', err.message);
   }

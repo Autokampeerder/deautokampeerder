@@ -38,21 +38,36 @@ function decodeBolUrl(affiliateLink) {
   }
 }
 
+function isRealEan(code) {
+  if (!code || code.length !== 13) return false;
+  // Ignore Bol internal product IDs which start with 930 or 920
+  if (code.startsWith('930') || code.startsWith('920')) return false;
+  return true;
+}
+
 function extractEanFromHtml(html) {
-  // Method 1: JSON-LD gtin13 / gtin / ean
-  const gtinMatch = html.match(/"gtin13"\s*:\s*"(\d{13})"/i) || 
-                    html.match(/"gtin"\s*:\s*"(\d{13})"/i) || 
-                    html.match(/"ean"\s*:\s*"(\d{13})"/i);
-  if (gtinMatch) return gtinMatch[1];
+  // Method 1: Spec list with EAN
+  const eanRegexes = [
+    /<dt[^>]*>\s*EAN\s*<\/dt>[\s\S]*?<dd[^>]*>\s*(\d{13})\s*<\/dd>/i,
+    /"gtin13"\s*:\s*"(\d{13})"/gi,
+    /"ean"\s*:\s*"(\d{13})"/gi,
+    /itemprop="gtin13"\s+content="(\d{13})"/gi,
+    /EAN\s*:\s*(\d{13})/i
+  ];
 
-  // Method 2: Meta tags
-  const metaMatch = html.match(/itemprop="gtin13"\s+content="(\d{13})"/i) ||
-                    html.match(/content="(\d{13})"\s+itemprop="gtin13"/i);
-  if (metaMatch) return metaMatch[1];
+  for (const regex of eanRegexes) {
+    let match;
+    while ((match = regex.exec(html)) !== null) {
+      const code = match[1];
+      if (isRealEan(code)) return code;
+    }
+  }
 
-  // Method 3: Specs table (EAN)
-  const specMatch = html.match(/EAN[\s\S]*?(\d{13})/i);
-  if (specMatch) return specMatch[1];
+  // Generic 13-digit scan (filtering out Bol 930/920 IDs)
+  const all13Digits = html.match(/\b\d{13}\b/g) || [];
+  for (const digit of all13Digits) {
+    if (isRealEan(digit)) return digit;
+  }
 
   return null;
 }
@@ -66,8 +81,9 @@ function extractFirstProductUrlFromSearch(html) {
 }
 
 async function processProduct(product) {
-  if (product.ean) {
-    console.log(`[SKIP] ${product.name} has EAN: ${product.ean}`);
+  // Force re-extracting if current EAN is a Bol internal ID (930... or 920...)
+  if (product.ean && isRealEan(product.ean)) {
+    console.log(`[SKIP] ${product.name} already has valid EAN: ${product.ean}`);
     return product;
   }
 
@@ -76,31 +92,29 @@ async function processProduct(product) {
 
   try {
     let html = await fetchUrl(targetUrl);
-    let ean = extractEanFromHtml(html);
-
-    // If it's a search page, get the first product page URL and fetch that
-    if (!ean && targetUrl.includes('/s/')) {
-      console.log(`  -> Search page detected. Resolving first product URL...`);
+    
+    // If search page, resolve to product page
+    if (targetUrl.includes('/s/')) {
       const productPageUrl = extractFirstProductUrlFromSearch(html);
       if (productPageUrl) {
         console.log(`  -> Found product page: ${productPageUrl}`);
         html = await fetchUrl(productPageUrl);
-        ean = extractEanFromHtml(html);
       }
     }
+
+    const ean = extractEanFromHtml(html);
 
     if (ean) {
       console.log(`  ✓ SUCCESS: EAN ${ean}`);
       product.ean = ean;
     } else {
-      console.log(`  ✗ FAILED: EAN not found for ${product.name}`);
+      console.log(`  ? EAN not found for ${product.name}`);
     }
   } catch (err) {
     console.error(`  ! ERROR fetching ${product.name}: ${err.message}`);
   }
 
-  // Sleep 1 sec to avoid hammering Bol
-  await new Promise(r => setTimeout(r, 1000));
+  await new Promise(r => setTimeout(r, 800));
   return product;
 }
 
