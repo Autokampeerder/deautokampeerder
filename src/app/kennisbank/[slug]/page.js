@@ -58,15 +58,18 @@ export default async function ArticlePage({ params }) {
         <ReactMarkdown
           components={{
             a: ({ href, children, ...props }) => {
+              const textContent = Array.isArray(children) ? children.join('') : String(children || '');
+              const isButtonLink = textContent.includes('→') || textContent.includes('&rarr;') || textContent.includes('Bekijk');
+
               if (href && href.startsWith('/')) {
                 return (
-                  <Link href={href} {...props}>
+                  <Link href={href} className={isButtonLink ? 'cta-btn' : ''} {...props}>
                     {children}
                   </Link>
                 );
               }
               return (
-                <a href={href} target="_blank" rel="noopener noreferrer" {...props}>
+                <a href={href} target="_blank" rel="noopener noreferrer" className={isButtonLink ? 'cta-btn' : ''} {...props}>
                   {children}
                 </a>
               );

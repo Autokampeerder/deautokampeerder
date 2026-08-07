@@ -8,7 +8,7 @@ excerpt: "Ontdek wat een daktent precies is, welke voordelen én nadelen het bie
 
 Een daktent is een speciaal ontworpen kampeertent die je op de dakdragers van een auto monteert. In tegenstelling tot een traditionele grondtent klap je een daktent (afhankelijk van het model en je ervaring) in enkele seconden tot een paar minuten uit, waarna je een droog en comfortabel slaapvertrek hebt – hoog boven de grond.
 
-> ⚠️ **Belangrijk voor je begint:** Een daktent is alleen geschikt als jouw auto en dakdragers het benodigde gewicht tijdens het rijden kunnen dragen. Lees eerst onze gids: [Past een daktent op mijn auto? Alles over daklast en dakdragers](/kennisbank/past-een-daktent-op-mijn-auto).
+> ⚠️ **Belangrijk voor je begint:** Een daktent is alleen geschikt als jouw auto en dakdragers het benodigde gewicht tijdens het rijden kunnen dragen. Lees eerst onze uitgebreide gids: [Past een daktent op mijn auto? Alles over daklast en dakdragers](/kennisbank/past-een-daktent-op-mijn-auto).
 
 ## De Evolutie van Kamperen
 Van oudsher kennen we allemaal het ritueel: haringen in de grond slaan, stoeien met tentstokken, en hopen dat de grond niet te scheef of nat is. Zodra je auto vlak en veilig geparkeerd staat op de camping of een camperplaats, staat je daktent binnen een handomdraai klaar.
@@ -43,7 +43,7 @@ Voor een gedetailleerde vergelijking lees je onze diepgaande gids: [Hardshell vs
 >
 > [Bekijk Prijs & Beschikbaarheid &rarr;](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dtrekker%2Bdaktent)
 >
-> <small style={{ opacity: 0.75 }}>* Partnerlink: Wij ontvangen mogelijk een commissie bij aankoop via onze partners, zonder extra kosten voor jou.</small>
+> *Partnerlink: Wij ontvangen mogelijk een commissie bij aankoop via onze partners, zonder extra kosten voor jou.*
 
 ## Maak je uitrusting compleet
 Naast een daktent heb je uiteraard een goede set [gecertificeerde dakdragers](/dakdragers) nodig. Wil je schaduw creëren rondom je auto? Bekijk dan de [Waterdichte Autoluifel (300x200 cm)](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fwaterdichte-autoluifel-voor-campers-en-suv-s-300x200-cm%2F9300000250962807%2F).
@@ -54,6 +54,6 @@ Of wil je heerlijk buiten koken op de camping na een lange dag rijden? Met een v
 >
 > [Bekijk Cadac BBQ & Prijs &rarr;](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fcarri-chef-40-bbq-paella-pan%2F9300000195394468%2F)
 >
-> <small style={{ opacity: 0.75 }}>* Partnerlink: Wij ontvangen mogelijk een commissie bij aankoop via onze partners, zonder extra kosten voor jou.</small>
+> *Partnerlink: Wij ontvangen mogelijk een commissie bij aankoop via onze partners, zonder extra kosten voor jou.*
 
 Benieuwd naar het volledige aanbod? Bekijk direct al onze [daktenten vergelijkingen](/daktenten).
