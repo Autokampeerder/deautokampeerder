@@ -71,14 +71,13 @@ p { margin-bottom: var(--spacing-md); }
   max-width: 800px; 
   padding-top: var(--spacing-xxl); 
   padding-bottom: var(--spacing-xxl); 
-  text-align: left !important;
-  margin-left: 0 !important;
-  margin-right: auto !important;
+  padding-left: 48px;
+  text-align: left;
 }
-.hero-content h1, .hero-content p, .hero-content nav, .hero-content .badge { 
-  text-align: left !important; 
+.hero-content h1, .hero-content p { 
   color: white; 
   text-shadow: 0 2px 10px rgba(0,0,0,0.3); 
+  text-align: left;
 }
 .badge { display: inline-block; background: rgba(255,255,255,0.2); backdrop-filter: blur(4px); padding: 6px 16px; border-radius: 50px; font-size: 0.9rem; font-weight: 600; margin-bottom: var(--spacing-md); border: 1px solid rgba(255,255,255,0.3); }
 
