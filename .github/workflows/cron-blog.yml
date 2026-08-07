@@ -1,4 +1,4 @@
-name: 24/7 Automated Blog Publisher (DeepSeek AI)
+name: 24/7 Automated Blog Publisher & Bol API Sync
 
 on:
   schedule:
@@ -20,6 +20,12 @@ jobs:
       - name: Install Dependencies
         run: npm ci || npm install
 
+      - name: Sync Live Bol.com Prices & Images via Bol API
+        env:
+          BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID }}
+          BOL_CLIENT_SECRET: ${{ secrets.BOL_CLIENT_SECRET }}
+        run: node update-bol-prices.js || true
+
       - name: Generate New Kennisbank Article via DeepSeek AI
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -28,10 +34,10 @@ jobs:
       - name: Verify Next.js Production Build
         run: npm run build
 
-      - name: Commit and Push New Article to Main
+      - name: Commit and Push New Article & Price Updates to Main
         run: |
           git config --global user.name "DeAutokampeerder Bot"
           git config --global user.email "bot@deautokampeerder.nl"
-          git add src/content/kennisbank/
+          git add src/data/ src/content/kennisbank/
           git status
-          git diff --quiet && git diff --staged --quiet || (git commit -m "feat(blog): publish new automated Kennisbank article via DeepSeek AI" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "feat(cron): sync live Bol.com prices & publish new Kennisbank article via DeepSeek AI" && git push)
