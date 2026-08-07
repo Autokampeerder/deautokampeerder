@@ -5,8 +5,10 @@ import daktentenData from '../data/daktenten.json';
 import accessoiresData from '../data/accessoires.json';
 import Link from 'next/link';
 import { Tent, Car, Bike, Battery, Compass } from 'lucide-react';
+import { getAllPosts } from '../lib/markdown';
 
 export default function Home() {
+  const latestPosts = getAllPosts().slice(0, 3);
   const faqs = [
     { 
       question: "Past een daktent op mijn auto?", 
@@ -168,36 +170,21 @@ export default function Home() {
             <Link href="/kennisbank" style={{ fontWeight: 600, color: 'var(--secondary)' }}>Bekijk alle artikelen &rarr;</Link>
           </div>
           <div className="grid grid-cols-3">
-            <Link href="/kennisbank/voordelen-van-een-hardshell-daktent-ten-opzichte-van-een-softshell" className="card">
-              <div className="card-img-wrapper">
-                <img src="https://images.unsplash.com/photo-1584126997295-f9327e5ee374?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Hardshell vs Softshell" className="card-img" />
-              </div>
-              <div className="card-content">
-                <span style={{ fontSize: '0.8rem', color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase' }}>Koopgids</span>
-                <h3>Hardshell vs Softshell: Wat is de beste keuze?</h3>
-                <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>Ontdek de verschillen in opzettijd, leefruimte en aerodynamica zodat je de perfecte tent kiest.</p>
-              </div>
-            </Link>
-            <Link href="/kennisbank/past-een-daktent-op-mijn-auto" className="card">
-              <div className="card-img-wrapper">
-                <img src="/images/dakdragers-auto.jpg" alt="Dakdragers kiezen" className="card-img" />
-              </div>
-              <div className="card-content">
-                <span style={{ fontSize: '0.8rem', color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase' }}>Keuzehulp</span>
-                <h3>Welke dakdragers passen op mijn auto?</h3>
-                <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>Een complete gids voor open en gesloten railing, gladde daken en vaste montagepunten.</p>
-              </div>
-            </Link>
-            <Link href="/kennisbank/wat-is-een-daktent" className="card">
-              <div className="card-img-wrapper">
-                <img src="/images/daktent-opzetten.jpg" alt="Wat is een daktent" className="card-img" />
-              </div>
-              <div className="card-content">
-                <span style={{ fontSize: '0.8rem', color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase' }}>Kampeertips</span>
-                <h3>Wat is een daktent en waarom is het populair?</h3>
-                <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>Alles over opzetgemak, droog slapen en waarom steeds meer avonturiers overstappen.</p>
-              </div>
-            </Link>
+            {latestPosts.map((post) => (
+              <Link href={`/kennisbank/${post.slug}`} key={post.slug} className="card" style={{ textDecoration: 'none' }}>
+                <div className="card-img-wrapper">
+                  {post.image && <img src={post.image} alt={post.title} className="card-img" />}
+                </div>
+                <div className="card-content">
+                  <span style={{ fontSize: '0.8rem', color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase' }}>{post.category || 'Koopgids'}</span>
+                  <h3>{post.title}</h3>
+                  <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>{post.excerpt}</p>
+                  <div style={{ marginTop: 'auto', paddingTop: '12px', fontSize: '0.85rem', color: 'var(--primary)', fontWeight: 'bold' }}>
+                    Lees verder &rarr;
+                  </div>
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
