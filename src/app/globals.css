@@ -161,44 +161,53 @@ p { margin-bottom: var(--spacing-md); }
     display: flex;
   }
   .container {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
   .section {
-    padding: var(--spacing-xl) 0;
+    padding-top: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl);
   }
   .hero-content {
-    padding: var(--spacing-xl) 0;
+    padding-top: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl);
   }
   .hero-content h1 {
     font-size: 2rem;
   }
-  .usp-grid { grid-template-columns: repeat(2, 1fr); }
+  .usp-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .feature-block { flex-direction: column; }
   .steps-grid { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
-  .grid-cols-4, .grid-cols-5 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--spacing-md); }
+  .grid-cols-2, .grid-cols-3, .grid-cols-4, .grid-cols-5 { 
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important; 
+    gap: 16px !important; 
+  }
 }
 
-@media (max-width: 600px) {
-  h1 { font-size: 1.75rem; margin-bottom: var(--spacing-sm); }
-  h2 { font-size: 1.35rem; margin-bottom: var(--spacing-sm); }
-  h3 { font-size: 1.15rem; }
+@media (max-width: 550px) {
+  h1 { font-size: 1.75rem !important; margin-bottom: var(--spacing-sm); }
+  h2 { font-size: 1.35rem !important; margin-bottom: var(--spacing-sm); }
+  h3 { font-size: 1.15rem !important; }
   .container {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
   .section {
-    padding: var(--spacing-lg) 0;
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
   }
   .hero-full {
-    min-height: 50vh !important;
+    min-height: 45vh !important;
   }
   .hero-content {
-    padding: var(--spacing-lg) 0;
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
   }
   .hero-content h1 {
-    font-size: 1.6rem;
+    font-size: 1.6rem !important;
   }
   .hero-content p {
     font-size: 0.95rem;
@@ -207,6 +216,9 @@ p { margin-bottom: var(--spacing-md); }
     padding: var(--spacing-md) !important;
     border-radius: 16px !important;
   }
-  .usp-grid { grid-template-columns: 1fr; }
-  .grid-cols-2, .grid-cols-3, .grid-cols-4, .grid-cols-5 { grid-template-columns: 1fr; gap: var(--spacing-md); }
+  .usp-grid { grid-template-columns: 1fr; gap: 12px; }
+  .grid-cols-2, .grid-cols-3, .grid-cols-4, .grid-cols-5 { 
+    grid-template-columns: 1fr !important; 
+    gap: 16px !important; 
+  }
 }
