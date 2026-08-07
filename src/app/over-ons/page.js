@@ -1,5 +1,3 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import UspBar from "@/components/UspBar";
 import Link from "next/link";
 
@@ -14,7 +12,6 @@ export const metadata = {
 export default function OverOnsPage() {
   return (
     <div className="page-wrapper">
-      <Header />
       <UspBar />
 
       <main style={{ padding: "60px 0", background: "var(--bg-light)" }}>
@@ -65,8 +62,6 @@ export default function OverOnsPage() {
           </div>
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }
