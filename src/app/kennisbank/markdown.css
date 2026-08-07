@@ -81,6 +81,70 @@
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
+.prose a {
+  color: var(--secondary);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: 0.2s;
+}
+
+.prose a:hover {
+  color: var(--primary);
+}
+
+.cta-box {
+  background: #FFF7F2;
+  border: 1px solid rgba(227, 123, 64, 0.3);
+  border-left: 5px solid var(--secondary);
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin: 2.5em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.cta-box p {
+  margin: 0;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 1.05rem;
+}
+
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--secondary);
+  color: white !important;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  box-shadow: 0 4px 14px rgba(227, 123, 64, 0.3);
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.cta-btn:hover {
+  background: var(--primary);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+  .cta-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cta-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 .article-hero img {
   width: 100%;
   height: auto;

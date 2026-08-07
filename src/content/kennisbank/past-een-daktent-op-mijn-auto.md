@@ -8,8 +8,6 @@ excerpt: "Een van de meest gestelde vragen: kan mijn auto wel een daktent dragen
 
 Een van de grootste misvattingen is dat je een grote 4x4 of SUV nodig hebt voor een daktent. Niets is minder waar! Zelfs op een kleine stadsauto, zoals een Fiat 500 of een Volkswagen Up!, kan vaak een daktent gemonteerd worden. Het geheim zit hem in de **daklast**.
 
-![Stevige dakdragers gemonteerd op het autodak](https://images.unsplash.com/photo-1645825436225-0b89a6b058b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)
-
 Lees voor een algemene introductie ook ons artikel: [Wat is een daktent en waarom is het de ultieme ervaring?](/kennisbank/wat-is-een-daktent).
 
 ## Dynamische vs. Statische Daklast
@@ -24,6 +22,16 @@ De vuistregel: *De daktent + je dakdragers mogen samen niet zwaarder zijn dan de
 
 ### 2. Statische Daklast
 Dit is het gewicht dat je dak kan dragen als de auto **stilstaat**. Auto's zijn ontworpen om ontzettend sterk te zijn bij het over de kop slaan. De statische daklast is daardoor véél hoger, vaak wel 300 kg of meer. Je hoeft je dus geen zorgen te maken dat het dak indeukt als je met twee personen in een [hardshell of softshell daktent](/daktenten) slaapt.
+
+<div className="cta-box">
+  <div>
+    <p>🚗 Stille & Aerodynamische Dakdragers</p>
+    <span style={{ fontSize: '0.9rem', color: '#5E7A70' }}>Thule WingBar Evo Aluminium Dakdragerset</span>
+  </div>
+  <a href="https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dthule%2Bwingbar%2Bevo" target="_blank" rel="noopener noreferrer" className="cta-btn">
+    Bekijk Thule WingBar op Bol.com &rarr;
+  </a>
+</div>
 
 ## Welke Dakdragers heb ik nodig?
 Niet alle dakdragers zijn geschikt voor daktenten. Goedkope dakdragers van de bouwmarkt of klem-dragers die in de deurpost grijpen zijn soms niet stevig genoeg.

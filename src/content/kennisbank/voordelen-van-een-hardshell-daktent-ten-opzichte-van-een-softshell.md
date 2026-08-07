@@ -6,9 +6,7 @@ image: "https://images.unsplash.com/photo-1584126997295-f9327e5ee374?ixlib=rb-4.
 excerpt: "Ontdek waarom een hardshell daktent de investering waard is: van razendsnelle opbouwtijd tot superieure isolatie. Wij vergelijken de cruciale verschillen met softshell-modellen."
 ---
 
-De keuze tussen een hardshell en softshell daktent is misschien wel de meest besproken beslissing onder overland-enthousiastelingen. Na jarenlang beide types uitgebreid getest te hebben op talloze roadtrips, kunnen wij met zekerheid zeggen: de hardshell wint op bijna elk cruciaal punt. 
-
-![Luxe Hardshell Daktent gemonteerd op een auto](https://images.unsplash.com/photo-1584126997295-f9327e5ee374?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)
+De keuze tussen een hardshell en softshell daktent is misschien wel de meest besproken beslissing onder overland-enthousiastelingen. Na jarenlang beide types uitgebreid getest te hebben op talloze roadtrips, kunnen wij met zekerheid zeggen: de hardshell wint op bijna elk cruciaal punt.
 
 In deze koopgids duiken we diep in de materie. We bespreken niet alleen het voor de hand liggende gemak, maar ook de technische specificaties die het verschil maken tussen een goede nachtrust en een nachtmerrie op je dak.
 
@@ -19,6 +17,16 @@ Lees ook onze gids: [Wat is een daktent en waarom is het de ultieme ervaring?](/
 Dit is voor ons de absolute gamechanger. Met een softshell daktent ben je gemiddeld 5 tot 10 minuten bezig met het afwerpen van de hoes, het uitschuiven van de ladder en het spannen van het doek.
 
 Een hardshell zoals de [Trekker Daktent Voyager M](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dtrekker%2Bdaktent) of de [Monster Shop Auto Daktent](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dmonster%2Bshop%2Bdaktent) klapt open met behulp van **krachtige gasveren**. Je draait één hendel, duwt de kap omhoog en de tent staat. Binnen 30 seconden lig je op je matras!
+
+<div className="cta-box">
+  <div>
+    <p>⚡ Off-Grid Stroom voor de Daktent</p>
+    <span style={{ fontSize: '0.9rem', color: '#5E7A70' }}>Bluetti EB3A Draagbare Powerstation (268Wh)</span>
+  </div>
+  <a href="https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dbluetti%2Beb3a" target="_blank" rel="noopener noreferrer" className="cta-btn">
+    Bekijk Bluetti op Bol.com &rarr;
+  </a>
+</div>
 
 ## 2. Superieure Aërodynamica en Rijgedrag
 
@@ -32,9 +40,19 @@ Vergeet niet je dakbelasting te controleren op onze [dakdragers pasvorm pagina](
 
 Een hardshell biedt een **stijve monocoque constructie** die windstoten opvangt en afvoert. In combinatie met een robuuste [Waterdichte Autoluifel (300x200 cm)](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fwaterdichte-autoluifel-voor-campers-en-suv-s-300x200-cm%2F9300000250962807%2F) creëer je een wind- en waterdicht kamp waar je ook bent.
 
+<div className="cta-box">
+  <div>
+    <p>❄️ Ijskoude Drankjes op 12V</p>
+    <span style={{ fontSize: '0.9rem', color: '#5E7A70' }}>Dometic CFX3 45 Compressorkoelbox (46L)</span>
+  </div>
+  <a href="https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddometic%2Bcfx3%2B45" target="_blank" rel="noopener noreferrer" className="cta-btn">
+    Bekijk Dometic op Bol.com &rarr;
+  </a>
+</div>
+
 ## 4. Off-Grid Comfort: Koelboxen & Powerstations
 
-Maak je daktent avontuur compleet met betrouwbare stroom voor je verlichting en koeling. Een compacte powerstation zoals de [Bluetti EB3A Draagbare Powerstation (268Wh)](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dbluetti%2Beb3a) voedt je apparaten moeiteloos, terwijl een 12V koelbox zoals de [Dometic CFX3 45 Compressorkoelbox](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddometic%2Bcfx3%2B45) je eten ijskoud houdt. Bekijk meer op onze [accu's & power pagina](/accu-en-power).
+Maak je daktent avontuur compleet met betrouwbare stroom voor je verlichting en koeling. Een compacte powerstation zoals de Bluetti EB3A voedt je apparaten moeiteloos, terwijl een 12V koelbox zoals de Dometic CFX3 je eten ijskoud houdt. Bekijk meer op onze [accu's & power pagina](/accu-en-power).
 
 ## Onze Aanbeveling
 
