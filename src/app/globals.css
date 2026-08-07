@@ -64,7 +64,7 @@ p { margin-bottom: var(--spacing-md); }
 .hero-bg-dakdragers { position: absolute; inset: 0; background: url('https://images.unsplash.com/photo-1645825436225-0b89a6b058b7?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb') center 30%/cover no-repeat; opacity: 0.4; }
 .hero-bg-fietsendragers { position: absolute; inset: 0; background: url('https://images.unsplash.com/photo-1584126997295-f9327e5ee374?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb') center/cover no-repeat; opacity: 0.4; }
 .hero-bg-accu { position: absolute; inset: 0; background: url('https://images.unsplash.com/photo-1650865941929-38ba5754ba19?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb') center 70%/cover no-repeat; opacity: 0.4; }
-.hero-bg-accessoires { position: absolute; inset: 0; background: url('https://images.unsplash.com/photo-1732010272096-eb84c40cacb1?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb') center 70%/cover no-repeat; opacity: 0.4; }
+.hero-bg-accessoires { position: absolute; inset: 0; background: url('https://media.s-bol.com/p1qp0GE3PAzQ/GZqkWmr/1200x1200.jpg') center 70%/cover no-repeat; opacity: 0.45; }
 .hero-content { position: relative; z-index: 2; max-width: 800px; padding-top: var(--spacing-xxl); padding-bottom: var(--spacing-xxl); }
 .hero-content h1, .hero-content p { color: white; text-shadow: 0 2px 10px rgba(0,0,0,0.3); }
 .badge { display: inline-block; background: rgba(255,255,255,0.2); backdrop-filter: blur(4px); padding: 6px 16px; border-radius: 50px; font-size: 0.9rem; font-weight: 600; margin-bottom: var(--spacing-md); border: 1px solid rgba(255,255,255,0.3); }
