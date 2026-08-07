@@ -18,7 +18,7 @@ Om te begrijpen of een daktent op jouw auto past, moet je het verschil weten tus
 Dit is het maximale gewicht dat het dak van je auto mag dragen **tijdens het rijden**. Dit wordt bepaald door de autofabrikant en staat in het instructieboekje. Bij de meeste personenauto's ligt dit tussen de 50 en 75 kg.
 De vuistregel: *De daktent + je dakdragers mogen samen niet zwaarder zijn dan de dynamische daklast.*
 
-![Auto met dakdragers en daktent onderweg op de snelweg](https://images.unsplash.com/photo-1533575770077-052fa2c609fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)
+![Auto met dakdragers en daktent opstelling](/images/dakdragers-auto.jpg)
 
 ### 2. Statische Daklast
 Dit is het gewicht dat je dak kan dragen als de auto **stilstaat**. Auto's zijn ontworpen om ontzettend sterk te zijn bij het over de kop slaan. De statische daklast is daardoor véél hoger, vaak wel 300 kg of meer. Je hoeft je dus geen zorgen te maken dat het dak indeukt als je met twee personen in een [hardshell of softshell daktent](/daktenten) slaapt.
