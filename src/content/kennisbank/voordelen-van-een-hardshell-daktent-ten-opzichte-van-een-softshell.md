@@ -19,7 +19,7 @@ Dit is voor ons de absolute gamechanger. Met een softshell daktent ben je gemidd
 Een hardshell zoals de [Trekker Daktent Voyager M](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dtrekker%2Bdaktent) of de [Monster Shop Auto Daktent](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dmonster%2Bshop%2Bdaktent) klapt open met behulp van **krachtige gasveren**. Je draait één hendel, duwt de kap omhoog en de tent staat. Binnen 30 seconden lig je op je matras!
 
 > ⚡ **Off-Grid Stroom voor de Daktent:** Bluetti EB3A Draagbare Powerstation (268Wh).
-> [Bekijk Bluetti op Bol.com &rarr;](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dbluetti%2Beb3a)
+> [Bekijk Bluetti Powerstation &rarr;](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dbluetti%2Beb3a)
 
 ## 2. Superieure Aërodynamica en Rijgedrag
 
@@ -34,7 +34,7 @@ Vergeet niet je dakbelasting te controleren op onze [dakdragers pasvorm pagina](
 Een hardshell biedt een **stijve monocoque constructie** die windstoten opvangt en afvoert. In combinatie met een robuuste [Waterdichte Autoluifel (300x200 cm)](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fwaterdichte-autoluifel-voor-campers-en-suv-s-300x200-cm%2F9300000250962807%2F) creëer je een wind- en waterdicht kamp waar je ook bent.
 
 > ❄️ **Ijskoude Drankjes op 12V:** Dometic CFX3 45 Compressorkoelbox (46L).
-> [Bekijk Dometic op Bol.com &rarr;](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddometic%2Bcfx3%2B45)
+> [Bekijk Dometic Koelbox &rarr;](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddometic%2Bcfx3%2B45)
 
 ## 4. Off-Grid Comfort: Koelboxen & Powerstations
 
