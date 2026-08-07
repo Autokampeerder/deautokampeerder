@@ -20,15 +20,8 @@ Wil je weten of jouw auto geschikt is? Lees dan ook onze gids: [Past een daktent
 3. **Droog en Veilig:** Omdat je op 2 meter hoogte ligt, heb je geen last van optrekkend vocht, modder of koud grondwater.
 4. **Matras en beddengoed blijven liggen:** Je klapt de tent in mét je slaapzakken en kussens erin. Dat scheelt een hoop kofferbakruimte voor je [outdoor accessoires & Skottelbraais](/accessoires).
 
-<div className="cta-box">
-  <div>
-    <p>🏕️ Populaire Hardshell Daktent</p>
-    <span style={{ fontSize: '0.9rem', color: '#5E7A70' }}>Binnen 30 seconden slaapklaar met gasveren</span>
-  </div>
-  <a href="https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dtrekker%2Bdaktent" target="_blank" rel="noopener noreferrer" className="cta-btn">
-    Bekijk Prijs op Bol.com &rarr;
-  </a>
-</div>
+> 🏕️ **Populaire Hardshell Daktent:** Binnen 30 seconden slaapklaar met gasveren.
+> [Bekijk Prijs op Bol.com &rarr;](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dtrekker%2Bdaktent)
 
 ![Daktent opstelling met luifel in het bos](/images/blue-car-roof-tent.png)
 
@@ -40,15 +33,8 @@ Grofweg zijn daktenten onder te verdelen in twee categorieën:
 
 Voor een gedetailleerde vergelijking lees je onze diepgaande gids: [Hardshell vs Softshell Daktent: 7 Overweldigende Voordelen](/kennisbank/voordelen-van-een-hardshell-daktent-ten-opzichte-van-een-softshell).
 
-<div className="cta-box">
-  <div>
-    <p>🍳 Buiten Koken op de Camping</p>
-    <span style={{ fontSize: '0.9rem', color: '#5E7A70' }}>CADAC Carri Chef 40 BBQ met Paellapan</span>
-  </div>
-  <a href="https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fcarri-chef-40-bbq-paella-pan%2F9300000195394468%2F" target="_blank" rel="noopener noreferrer" className="cta-btn">
-    Bekijk Cadac BBQ op Bol.com &rarr;
-  </a>
-</div>
+> 🍳 **Buiten Koken op de Camping:** CADAC Carri Chef 40 BBQ met Paellapan.
+> [Bekijk Cadac BBQ op Bol.com &rarr;](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fcarri-chef-40-bbq-paella-pan%2F9300000195394468%2F)
 
 ## Maak je uitrusting compleet
 Naast een daktent heb je uiteraard een goede set [gecertificeerde dakdragers](/dakdragers) nodig. Wil je schaduw creëren rondom je auto? Bekijk dan de [Waterdichte Autoluifel (300x200 cm)](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fwaterdichte-autoluifel-voor-campers-en-suv-s-300x200-cm%2F9300000250962807%2F).
