@@ -128,8 +128,8 @@ p { margin-bottom: var(--spacing-md); }
 /* Cards */
 .card { background: var(--card-bg); border-radius: 12px; overflow: hidden; border: 1px solid var(--border-light); transition: 0.3s; display: flex; flex-direction: column; height: 100%; }
 .card:hover { transform: translateY(-5px); box-shadow: 0 12px 24px rgba(0,0,0,0.08); }
-.card-img-wrapper { aspect-ratio: 4/3; width: 100%; overflow: hidden; }
-.card-img { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
+.card-img-wrapper { aspect-ratio: 4/3; width: 100%; overflow: hidden; background: #ffffff; padding: 12px; display: flex; align-items: center; justify-content: center; }
+.card-img { width: 100%; height: 100%; object-fit: contain; transition: 0.5s; }
 .card:hover .card-img { transform: scale(1.05); }
 .card-content { padding: var(--spacing-md); display: flex; flex-direction: column; flex-grow: 1; }
 .card-tag { position: absolute; top: 12px; right: 12px; background: var(--secondary); color: white; padding: 4px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 600; z-index: 2; }
