@@ -1,5 +1,6 @@
 import { getPostBySlug, getAllPosts } from '../../../lib/markdown';
 import ReactMarkdown from 'react-markdown';
+import Link from 'next/link';
 import '../markdown.css';
 
 export async function generateStaticParams() {
@@ -16,8 +17,11 @@ export async function generateMetadata({ params }) {
     return { title: 'Niet gevonden' };
   }
   return {
-    title: `${post.frontmatter.title} | Daktent Expert`,
+    title: `${post.frontmatter.title} | De Autokampeerder`,
     description: post.frontmatter.excerpt,
+    alternates: {
+      canonical: `https://deautokampeerder.nl/kennisbank/${resolvedParams.slug}`,
+    },
   };
 }
 
@@ -29,7 +33,7 @@ export default async function ArticlePage({ params }) {
     return (
       <div className="container section" style={{ textAlign: 'center' }}>
         <h1>Artikel niet gevonden</h1>
-        <a href="/kennisbank" className="btn btn-primary">Terug naar de kennisbank</a>
+        <Link href="/kennisbank" className="btn btn-primary">Terug naar de kennisbank</Link>
       </div>
     );
   }
@@ -51,11 +55,32 @@ export default async function ArticlePage({ params }) {
       )}
 
       <div className="prose">
-        <ReactMarkdown>{post.content}</ReactMarkdown>
+        <ReactMarkdown
+          components={{
+            a: ({ href, children, ...props }) => {
+              if (href && href.startsWith('/')) {
+                return (
+                  <Link href={href} {...props}>
+                    {children}
+                  </Link>
+                );
+              }
+              return (
+                <a href={href} target="_blank" rel="noopener noreferrer" {...props}>
+                  {children}
+                </a>
+              );
+            },
+          }}
+        >
+          {post.content}
+        </ReactMarkdown>
       </div>
 
-      <div style={{ textAlign: 'center', paddingBottom: 'var(--spacing-xl)' }}>
-        <a href="/kennisbank" className="btn btn-outline">Terug naar overzicht</a>
+      <div style={{ textAlign: 'center', paddingBottom: 'var(--spacing-xl)', marginTop: '3rem' }}>
+        <Link href="/kennisbank" className="btn btn-outline">
+          &larr; Terug naar Kennisbank overzicht
+        </Link>
       </div>
     </article>
   );
