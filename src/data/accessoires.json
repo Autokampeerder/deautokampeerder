@@ -5,7 +5,8 @@
     "price": "249,-",
     "category": "Outdoor Koken & Gas BBQ",
     "image": "https://images.unsplash.com/photo-1533575770077-052fa2c609fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dcadac%2Bcarri%2Bchef%2B2"
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dcadac%2Bcarri%2Bchef%2B2",
+    "ean": "9300000261769"
   },
   {
     "id": 502,
@@ -13,7 +14,8 @@
     "price": "995,-",
     "category": "270 Graden Schaduw",
     "image": "https://images.unsplash.com/photo-1525811902-f2342640856e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddarche%2Beclipse%2B270"
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddarche%2Beclipse%2B270",
+    "ean": "9034518234499"
   },
   {
     "id": 503,
@@ -21,7 +23,8 @@
     "price": "899,-",
     "category": "12V/230V Koelen tot -22°C",
     "image": "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddometic%2Bcfx3%2B45"
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddometic%2Bcfx3%2B45",
+    "ean": "9300000224674"
   },
   {
     "id": 504,
@@ -29,6 +32,7 @@
     "price": "49,95",
     "category": "Camping & Strand Schaduw",
     "image": "https://images.unsplash.com/photo-1627915579997-6a4a15ee4080?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dbo-camp%2Bparasol"
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dbo-camp%2Bparasol",
+    "ean": "9300000290079"
   }
 ]
