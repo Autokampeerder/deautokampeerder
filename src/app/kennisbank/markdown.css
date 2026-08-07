@@ -116,7 +116,7 @@
 }
 
 .prose blockquote a {
-  display: inline-flex;
+  display: inline-flex !important;
   align-items: center;
   gap: 8px;
   background: var(--secondary);
@@ -129,7 +129,7 @@
   box-shadow: 0 4px 14px rgba(227, 123, 64, 0.3);
   transition: 0.3s;
   white-space: nowrap;
-  margin-top: 4px;
+  margin-top: 16px !important;
 }
 
 .prose blockquote a:hover {

@@ -24,6 +24,7 @@ De vuistregel: *De daktent + je dakdragers mogen samen niet zwaarder zijn dan de
 Dit is het gewicht dat je dak kan dragen als de auto **stilstaat**. Auto's zijn ontworpen om ontzettend sterk te zijn bij het over de kop slaan. De statische daklast is daardoor véél hoger, vaak wel 300 kg of meer. Je hoeft je dus geen zorgen te maken dat het dak indeukt als je met twee personen in een [hardshell of softshell daktent](/daktenten) slaapt.
 
 > 🚗 **Stille & Aerodynamische Dakdragers:** Thule WingBar Evo Aluminium Dakdragerset.
+>
 > [Bekijk Thule WingBar & Prijs &rarr;](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dthule%2Bwingbar%2Bevo)
 
 ## Welke Dakdragers heb ik nodig?
