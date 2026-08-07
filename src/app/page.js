@@ -1,8 +1,9 @@
 import ProductCard from '../components/ProductCard';
 import UspBar from '../components/UspBar';
 import FaqAccordion from '../components/FaqAccordion';
-import productsData from '../data/products.json';
-import accessoriesData from '../data/accessories.json';
+import daktentenData from '../data/daktenten.json';
+import accessoiresData from '../data/accessoires.json';
+import Link from 'next/link';
 
 export default function Home() {
   const faqs = [
@@ -19,11 +20,11 @@ export default function Home() {
         <div className="hero-bg"></div>
         <div className="container hero-content">
           <span className="badge">🏕️ Jouw avontuur begint hier</span>
-          <h1>Ontdek de Ultieme Vrijheid van een Daktent</h1>
-          <p>Vergelijk onafhankelijk de beste daktenten, dakdragers en fietsendragers. Vind de scherpste deals en lees handige tips voor je volgende roadtrip.</p>
+          <h1>Ontdek de Ultieme Vrijheid van Autokamperen</h1>
+          <p>Onafhankelijk vergelijken van Daktenten, Dakdragers, Fietsendragers, Powerstations en Outdoor Gear op Bol.com.</p>
           <div className="flex gap-md" style={{flexWrap: 'wrap'}}>
-            <a href="#aanbod" className="btn btn-primary">Bekijk Daktenten</a>
-            <a href="#accessoires" className="btn btn-primary" style={{backgroundColor: 'var(--primary)'}}>Fietsendragers & Gear</a>
+            <Link href="/daktenten" className="btn btn-primary">Bekijk Daktenten</Link>
+            <Link href="/dakdragers" className="btn btn-primary" style={{backgroundColor: 'var(--primary)'}}>Dakdragers & Gear</Link>
           </div>
         </div>
       </section>
@@ -32,52 +33,61 @@ export default function Home() {
 
       <div className="brands-strip">
         <div className="container brands-flex">
+          <span>OFFLANDER</span>
           <span>THULE</span>
-          <span>SHEEPIE</span>
-          <span>DARE TO BE DIFFERENT</span>
-          <span>FJORDSEN</span>
-          <span>AUTOHOME</span>
+          <span>TREKKER</span>
+          <span>ROOFTOP CABIN</span>
+          <span>CADAC</span>
+          <span>BLUETTI</span>
         </div>
       </div>
 
-      {/* STAPPENPLAN */}
+      {/* CATEGORY QUICK HUBS */}
       <section className="section section-bg-light">
         <div className="container">
           <div className="section-header">
-            <h2>In 3 stappen on the road</h2>
-            <p>Jouw ultieme roadtrip-setup is makkelijker geregeld dan je denkt.</p>
+            <h2>Ontdek onze 5 Categorieën</h2>
+            <p>Vind direct alle benodigdheden voor jouw ideale autokampeertrip.</p>
           </div>
-          <div className="steps-grid">
-            <div className="step-card">
-              <div className="step-number">1</div>
-              <h3>Check je Daklast</h3>
-              <p>Controleer de dynamische daklast van je auto (meestal 50-75kg) en kies de juiste Thule dakdragers.</p>
-            </div>
-            <div className="step-card">
-              <div className="step-number">2</div>
-              <h3>Kies je Tent</h3>
-              <p>Ga je voor het gemak van een Hardshell, of de ruimte van een opvouwbare Softshell?</p>
-            </div>
-            <div className="step-card">
-              <div className="step-number">3</div>
-              <h3>Maak het compleet</h3>
-              <p>Voeg een fietsendrager en luifel toe voor de ultieme outdoor ervaring.</p>
-            </div>
+          <div className="grid grid-cols-4">
+            <Link href="/daktenten" className="card" style={{ padding: 'var(--spacing-lg)', textCenter: 'center', cursor: 'pointer' }}>
+              <div style={{ fontSize: '2.5rem', marginBottom: '10px' }}>🏕️</div>
+              <h3>Daktenten</h3>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Softshell & Hardshell modellen vergelijken.</p>
+            </Link>
+
+            <Link href="/dakdragers" className="card" style={{ padding: 'var(--spacing-lg)', textCenter: 'center', cursor: 'pointer' }}>
+              <div style={{ fontSize: '2.5rem', marginBottom: '10px' }}>🚗</div>
+              <h3>Dakdragers</h3>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Thule WingBar, Menabo & pasvorm gidsen.</p>
+            </Link>
+
+            <Link href="/fietsendragers" className="card" style={{ padding: 'var(--spacing-lg)', textCenter: 'center', cursor: 'pointer' }}>
+              <div style={{ fontSize: '2.5rem', marginBottom: '10px' }}>🚲</div>
+              <h3>Fietsendragers</h3>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Trekhaakdragers voor E-Bikes & mountainbikes.</p>
+            </Link>
+
+            <Link href="/accu-en-power" className="card" style={{ padding: 'var(--spacing-lg)', textCenter: 'center', cursor: 'pointer' }}>
+              <div style={{ fontSize: '2.5rem', marginBottom: '10px' }}>⚡</div>
+              <h3>Accu's & Power</h3>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Bluetti, EcoFlow powerstations & solar.</p>
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* DAKTENTEN AANBOD */}
+      {/* DAKTENTEN HIGHLIGHT */}
       <section id="aanbod" className="section">
         <div className="container">
           <div className="flex items-center justify-between" style={{marginBottom: 'var(--spacing-lg)'}}>
-            <h2>Uitgelichte Daktenten</h2>
-            <a href="#" style={{fontWeight: 600, color: 'var(--secondary)'}}>Bekijk alle modellen &rarr;</a>
+            <h2>Populairste Daktenten</h2>
+            <Link href="/daktenten" style={{fontWeight: 600, color: 'var(--secondary)'}}>Bekijk alle daktenten &rarr;</Link>
           </div>
-          <div className="grid grid-cols-3">
-            {productsData.map((product) => (
+          <div className="grid grid-cols-4">
+            {daktentenData.map((product) => (
               <div style={{position: 'relative'}} key={product.id}>
-                {product.id === 1 && <span className="card-tag">Beste Getest 2026</span>}
+                {product.id === 1 && <span className="card-tag">Beste Getest</span>}
                 <ProductCard title={product.name} brand={product.category} price={product.price} image={product.image} affiliateUrl={product.link} />
               </div>
             ))}
@@ -85,54 +95,44 @@ export default function Home() {
         </div>
       </section>
 
-      {/* VIDEO / EXPERIENCE SECTION */}
-      <section className="video-section">
-        <div className="video-overlay"></div>
-        <div className="container video-content">
-          <h2>Ervaar de Vrijheid</h2>
-          <p>Kijk hoe de Thule Approach M binnen 3 minuten slaapklaar is op een verlaten bergpas in Noorwegen.</p>
-          <button className="play-btn">▶ Bekijk Video</button>
-        </div>
-      </section>
-
       {/* FEATURES / INNOVATIE */}
-      <section id="waarom" className="section">
+      <section id="waarom" className="section section-bg-light">
         <div className="container">
           <div className="feature-block">
             <div className="feature-image">
-              <img src="/images/rooftop-cabin-smart-top-3.png" alt="Materialen en Innovatie - Land Cruiser Daktent" />
+              <img src="/images/rooftop-cabin-smart-top-3.png" alt="Land Cruiser met Daktent" />
             </div>
             <div className="feature-text">
               <h2>Topkwaliteit Materialen</h2>
-              <p>De merken die wij aanbevelen staan garant voor jarenlang kampeerplezier onder alle weersomstandigheden. Een daktent is een investering in vrijheid.</p>
+              <p>De merken op ons platform staan garant voor jarenlang kampeerplezier onder alle weersomstandigheden.</p>
               <ul className="check-list">
-                <li><strong>Ademend Polykatoen:</strong> 300g/m2 ripstop canvas voorkomt condensatie en is 100% waterdicht.</li>
+                <li><strong>Ademend Polykatoen:</strong> Ripstop canvas voorkomt condensatie en is 100% waterdicht.</li>
                 <li><strong>Robuuste Ritsen:</strong> SBS of YKK ritsen die modder en stof moeiteloos trotseren.</li>
-                <li><strong>High-Density Matrassen:</strong> Minimaal 6cm dik traagschuim voor slaapcomfort als thuis.</li>
-                <li><strong>Aerodynamisch Design:</strong> ABS of Aluminium hardshells minimaliseren brandstofverbruik.</li>
+                <li><strong>High-Density Matrassen:</strong> Minimaal 5.5cm dik geheugenschuim voor slaapcomfort als thuis.</li>
+                <li><strong>Aerodynamisch Design:</strong> Geen belemmering en minimaal brandstofverbruik.</li>
               </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* AANVERWANTE SPULLEN / CROSS-SELL */}
-      <section id="accessoires" className="section section-bg-light">
+      {/* OUTDOOR GEAR & ACCESSOIRES */}
+      <section id="accessoires" className="section">
         <div className="container">
-          <div className="section-header">
-            <h2>Maak je Setup Compleet</h2>
-            <p>Dakdragers, fietsendragers en luifels: alles voor de ultieme roadtrip.</p>
+          <div className="flex items-center justify-between" style={{marginBottom: 'var(--spacing-lg)'}}>
+            <h2>Uitgelichte Outdoor Gear & Skottelbraai</h2>
+            <Link href="/accessoires" style={{fontWeight: 600, color: 'var(--secondary)'}}>Bekijk alle accessoires &rarr;</Link>
           </div>
           <div className="grid grid-cols-4">
-            {accessoriesData.map((item) => (
-              <ProductCard key={item.id} title={item.name} brand={item.brand} price={item.price} image={item.image} affiliateUrl={item.link} />
+            {accessoiresData.map((item) => (
+              <ProductCard key={item.id} title={item.name} brand={item.category} price={item.price} image={item.image} affiliateUrl={item.link} />
             ))}
           </div>
         </div>
       </section>
 
       {/* SFEER GALERIJ */}
-      <section className="section">
+      <section className="section section-bg-light">
         <div className="container">
           <div className="section-header">
             <h2>Inspiratie uit het Wild</h2>
@@ -142,32 +142,6 @@ export default function Home() {
             <div className="gallery-item"><img src="https://images.unsplash.com/photo-1533575770077-052fa2c609fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sfeer" /></div>
             <div className="gallery-item"><img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sfeer" /></div>
             <div className="gallery-item"><img src="https://images.unsplash.com/photo-1525811902-f2342640856e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sfeer" /></div>
-          </div>
-        </div>
-      </section>
-
-      {/* REVIEWS */}
-      <section className="section section-bg-light">
-        <div className="container">
-          <div className="section-header">
-            <h2>Ervaringen van Kampeerders</h2>
-          </div>
-          <div className="grid grid-cols-3">
-            <div className="review-card">
-              <div className="stars">⭐⭐⭐⭐⭐</div>
-              <p>"Dankzij de keuzehulp de perfecte Thule daktent gevonden. Installatie was een fluitje van een cent op onze Volvo!"</p>
-              <strong>- Mark & Lisa</strong>
-            </div>
-            <div className="review-card">
-              <div className="stars">⭐⭐⭐⭐⭐</div>
-              <p>"We zochten ook nog een goede fietsendrager. Heel fijn dat we hier alles in één duidelijk overzicht konden vergelijken."</p>
-              <strong>- Jeroen Bakker</strong>
-            </div>
-            <div className="review-card">
-              <div className="stars">⭐⭐⭐⭐⭐</div>
-              <p>"De artikelen over daklast hebben me behoed voor een foute aankoop. Uiteindelijk een lichte Softshell gekozen."</p>
-              <strong>- Sanne V.</strong>
-            </div>
           </div>
         </div>
       </section>

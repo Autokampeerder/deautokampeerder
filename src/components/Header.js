@@ -8,8 +8,11 @@ export default function Header() {
           DeAuto<span style={{ color: 'var(--secondary)' }}>Kampeerder</span>
         </Link>
         <nav className="nav-links">
-          <a href="/#aanbod">Daktenten</a>
-          <a href="/#accessoires">Dakdragers</a>
+          <Link href="/daktenten">Daktenten</Link>
+          <Link href="/dakdragers">Dakdragers</Link>
+          <Link href="/fietsendragers">Fietsendragers</Link>
+          <Link href="/accu-en-power">Accu's & Power</Link>
+          <Link href="/accessoires">Accessoires</Link>
           <Link href="/kennisbank">Kennisbank</Link>
         </nav>
       </div>

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 501,
+    "name": "Cadac Carri Chef 2 Skottelbraai BBQ Combo",
+    "price": "249,-",
+    "category": "Outdoor Koken & Gas BBQ",
+    "image": "https://images.unsplash.com/photo-1533575770077-052fa2c609fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dcadac%2Bcarri%2Bchef%2B2"
+  },
+  {
+    "id": 502,
+    "name": "Darche Eclipse 270 Luifel (Links/Rechts)",
+    "price": "995,-",
+    "category": "270 Graden Schaduw",
+    "image": "https://images.unsplash.com/photo-1525811902-f2342640856e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddarche%2Beclipse%2B270"
+  },
+  {
+    "id": 503,
+    "name": "Dometic CFX3 45 Compressorkoelbox (46 Liter)",
+    "price": "899,-",
+    "category": "12V/230V Koelen tot -22°C",
+    "image": "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Ddometic%2Bcfx3%2B45"
+  },
+  {
+    "id": 504,
+    "name": "Bo-Camp Wind- en UV-bestendige Parasol (200cm)",
+    "price": "49,95",
+    "category": "Camping & Strand Schaduw",
+    "image": "https://images.unsplash.com/photo-1627915579997-6a4a15ee4080?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "link": "https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dbo-camp%2Bparasol"
+  }
+]
