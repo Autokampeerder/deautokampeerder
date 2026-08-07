@@ -86,3 +86,12 @@
   height: auto;
   display: block;
 }
+
+.prose img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  margin: 2em 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border: 1px solid var(--border-light);
+}
