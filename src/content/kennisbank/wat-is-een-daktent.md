@@ -16,7 +16,7 @@ Van oudsher kennen we allemaal het ritueel: haringen in de grond slaan, stoeien 
 ## Voordelen van een Daktent
 
 1. **Snelle opbouwtijd:** Een hardshell daktent staat met behulp van gasveren binnen 30 seconden tot een minuut open.
-2. **Droog en Veilig:** Omdat je op de hoogte van het autodak slaapt (meestal tussen 1,5 en 2 meter hoogte), heb je geen last van optrekkende kou, modder of grondwater.
+2. **Minder last van grondvocht:** Doordat je boven de grond slaapt, heb je minder last van optrekkende kou, modder en grondwater. De exacte slaaphoogte hangt af van het type auto, de dakdragers en de daktent.
 3. **Slaapcomfort:** Probeer de auto altijd zo vlak mogelijk neer te zetten; dankzij de vaste bodemplaat en schuimmatras lig je heerlijk egaal.
 4. **Ruimtebesparing in de auto:** Bij veel hardshellmodellen kunnen het matras en lichte slaapzakken gewoon in de ingeklapte koffer blijven liggen. Dat scheelt kofferbakruimte voor je [outdoor accessoires](/accessoires).
 
@@ -34,7 +34,7 @@ Om een eerlijk beeld te geven, zijn er ook een paar belangrijke nadelen om reken
 ## Hardshell vs Softshell: Welk type past bij jou?
 Grofweg zijn daktenten onder te verdelen in twee categorieën:
 
-- **Hardshell Daktenten:** Gestaard in een harde ABS- of aluminium koffer. Ze klappen supersnel open en zijn zeer gestroomlijnd op de snelweg. Bekijk bijvoorbeeld de [Monster Shop Auto Daktent](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dmonster%2Bshop%2Bdaktent).
+- **Hardshell Daktenten:** Deze bestaan uit een harde ABS- of aluminium schaal en klappen meestal met behulp van gasveren binnen een minuut open. Bekijk bijvoorbeeld de [Monster Shop Auto Daktent](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dmonster%2Bshop%2Bdaktent).
 - **Softshell Daktenten:** Klappen open als een boek en bieden een enorme leefruimte voor gezinnen, zoals de [Offlander Fold 4 Daktent](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dofflander%2Bfold%2B4).
 
 Voor een gedetailleerde vergelijking lees je onze diepgaande gids: [Hardshell vs Softshell Daktent: 7 Overweldigende Voordelen](/kennisbank/voordelen-van-een-hardshell-daktent-ten-opzichte-van-een-softshell).
