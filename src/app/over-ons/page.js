@@ -1,33 +1,72 @@
-import Link from 'next/link';
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import UspBar from "@/components/UspBar";
+import Link from "next/link";
 
 export const metadata = {
-  title: 'Over Ons | De Autokampeerder',
-  description: 'Lees meer over de missie van De Autokampeerder.',
+  title: "Over Ons | DeAutokampeerder",
+  description: "Het verhaal achter DeAutokampeerder: hét onafhankelijke informatieplatform voor daktenten, dakdragers, stroomvoorzieningen en autokampeer-gear.",
+  alternates: {
+    canonical: "https://deautokampeerder.nl/over-ons",
+  },
 };
 
-export default function OverOns() {
+export default function OverOnsPage() {
   return (
-    <div className="container section" style={{ maxWidth: '800px', margin: '0 auto', paddingTop: 'var(--spacing-xl)' }}>
-      <h1>Over De Autokampeerder</h1>
-      
-      <div style={{ fontSize: '1.1rem', color: 'var(--text-muted)' }}>
-        <p>Welkom bij <strong>De Autokampeerder</strong>, dé onafhankelijke vergelijker voor iedereen die de ultieme vrijheid van het kamperen met de auto wil ervaren.</p>
-        
-        <h2 style={{ marginTop: 'var(--spacing-lg)' }}>Onze Missie</h2>
-        <p>Wij geloven dat avontuur niet ingewikkeld hoeft te zijn. Met een daktent tover je jouw dagelijkse auto in 3 minuten om tot een comfortabele slaapplaats, waar je ook bent. Geen gedoe met haringen in de stromende regen, geen koude rug, maar direct genieten van het uitzicht vanaf je dak.</p>
-        <p>Omdat de markt voor daktenten, dakdragers en luifels enorm groeit, zagen we dat veel beginnende autokampeerders door de bomen het bos niet meer zagen. Welke tent past op mijn auto? Hoe zit het met de daklast? Welke accessoires heb ik écht nodig?</p>
-        
-        <h2 style={{ marginTop: 'var(--spacing-lg)' }}>Eerlijk & Onafhankelijk</h2>
-        <p>Op De Autokampeerder bundelen we al deze informatie. We schrijven uitgebreide gidsen in onze kennisbank, vergelijken de beste modellen van topmerken zoals Thule, Sheepie en Dare To Be Different, en helpen jou de beste keuze te maken voor jouw budget en auto.</p>
-        
-        <div style={{ marginTop: 'var(--spacing-xl)', padding: 'var(--spacing-lg)', background: 'var(--card-bg)', borderRadius: '12px', border: '1px solid var(--border-light)' }}>
-          <h3 style={{ margin: 0, marginBottom: 'var(--spacing-sm)' }}>Klaar voor het avontuur?</h3>
-          <p style={{ margin: 0, marginBottom: 'var(--spacing-md)' }}>Bekijk direct welke daktenten als beste uit de test komen.</p>
-          <Link href="/#aanbod" className="btn btn-primary" style={{ padding: '12px 24px', fontSize: '1rem' }}>
-            Bekijk Daktenten
-          </Link>
+    <div className="page-wrapper">
+      <Header />
+      <UspBar />
+
+      <main style={{ padding: "60px 0", background: "var(--bg-light)" }}>
+        <div className="container" style={{ maxWidth: "900px", margin: "0 auto", padding: "0 20px" }}>
+          
+          <div style={{ background: "white", padding: "40px", borderRadius: "20px", boxShadow: "0 10px 30px rgba(0,0,0,0.05)" }}>
+            <h1 style={{ fontSize: "2.2rem", color: "var(--primary)", marginBottom: "16px" }}>
+              Over DeAutokampeerder
+            </h1>
+            <p style={{ color: "#5E7A70", fontSize: "1.15rem", marginBottom: "30px", lineHeight: "1.6" }}>
+              Welkom bij DeAutokampeerder – dé plek voor iedereen die houdt van de vrijheid van kamperen met de auto, daktent of luifel in Nederland, België en heel Europa.
+            </p>
+
+            <hr style={{ border: "none", borderTop: "1px solid var(--border-light)", margin: "30px 0" }} />
+
+            <section style={{ marginBottom: "32px" }}>
+              <h2 style={{ fontSize: "1.4rem", color: "var(--primary)", marginBottom: "12px" }}>
+                Onze Missie
+              </h2>
+              <p style={{ lineHeight: "1.7", color: "#333" }}>
+                Autokamperen heeft de afgelopen jaren een enorme vlucht genomen. Of je nu met een compacte stadsauto op pad gaat met een lichtgewicht daktent, of met een robuuste 4x4 overland-setup duizenden kilometers maakt: goede uitrusting maakt het verschil tussen een droomreis en gedoe onderweg.
+              </p>
+              <p style={{ lineHeight: "1.7", color: "#333", marginTop: "12px" }}>
+                Het aanbod aan daktenten, dakdragers, fietsendragers en portable powerstations is enorm. Wij hebben DeAutokampeerder opgericht om overzicht te scheppen in de jungle van specificaties, daklast-berekeningen en montageregels.
+              </p>
+            </section>
+
+            <section style={{ marginBottom: "32px" }}>
+              <h2 style={{ fontSize: "1.4rem", color: "var(--primary)", marginBottom: "12px" }}>
+                Wat kun je bij ons verwachten?
+              </h2>
+              <ul style={{ paddingLeft: "20px", lineHeight: "1.8", color: "#444" }}>
+                <li><strong>Onafhankelijk specificatie-onderzoek:</strong> Duidelijke vergelijkingen op afmetingen, gewicht, dakbelasting en prijs-kwaliteit.</li>
+                <li><strong>Praktische Koopgidsen:</strong> Eerlijke informatie over hardshell vs. softshell, daklastvoorwaarden en off-grid stroom.</li>
+                <li><strong>Geen valse beloftes:</strong> Wij leggen transparant uit hoe adviezen tot stand komen. Meer hierover lees je op onze pagina over <Link href="/transparantie-en-methodiek" style={{ color: "var(--secondary)", textDecoration: "underline" }}>Transparantie & Methodiek</Link>.</li>
+              </ul>
+            </section>
+
+            <section style={{ marginBottom: "32px" }}>
+              <h2 style={{ fontSize: "1.4rem", color: "var(--primary)", marginBottom: "12px" }}>
+                Contact & Vragen
+              </h2>
+              <p style={{ lineHeight: "1.7", color: "#333" }}>
+                Heb je een vraag over een artikel, een suggestie voor een vergelijking of wil je met ons in contact komen? Stuur ons gerust een bericht via onze <Link href="/contact" style={{ color: "var(--secondary)", textDecoration: "underline" }}>contactpagina</Link>.
+              </p>
+            </section>
+
+          </div>
         </div>
-      </div>
+      </main>
+
+      <Footer />
     </div>
   );
 }
