@@ -23,7 +23,7 @@ const discoveryMap = [
   {
     file: 'accessoires.json',
     categoryName: 'Outdoor Accessoires',
-    queries: ['anti condensmat daktent', 'waterdichte autoluifel', 'cadac carri chef', 'campingstoel lichtgewicht']
+    queries: ['anti condensmat daktent', 'waterdichte autoluifel', 'cadac carri chef', 'campingstoel lichtgewicht', '270 luifel auto']
   },
   {
     file: 'daktenten.json',
@@ -33,7 +33,7 @@ const discoveryMap = [
   {
     file: 'dakdragers.json',
     categoryName: 'Dakdragers',
-    queries: ['thule wingbar evo', 'menabo jackson']
+    queries: ['thule wingbar evo', 'menabo jackson', 'dakkoffer auto', 'bagage dakkoffer']
   },
   {
     file: 'fietsendragers.json',
