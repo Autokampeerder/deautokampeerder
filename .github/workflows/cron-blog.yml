@@ -20,6 +20,12 @@ jobs:
       - name: Install Dependencies
         run: npm ci || npm install
 
+      - name: Discover New Relevant Bol.com Products (Max 1 Per Run)
+        env:
+          BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID }}
+          BOL_CLIENT_SECRET: ${{ secrets.BOL_CLIENT_SECRET }}
+        run: node scripts/discover-products.js || true
+
       - name: Sync Live Bol.com Prices & Images via Bol API
         env:
           BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID }}
@@ -34,10 +40,10 @@ jobs:
       - name: Verify Next.js Production Build
         run: npm run build
 
-      - name: Commit and Push New Article & Price Updates to Main
+      - name: Commit and Push New Article & Product Updates to Main
         run: |
           git config --global user.name "DeAutokampeerder Bot"
           git config --global user.email "bot@deautokampeerder.nl"
           git add src/data/ src/content/kennisbank/
           git status
-          git diff --quiet && git diff --staged --quiet || (git commit -m "feat(cron): sync live Bol.com prices & publish new Kennisbank article via DeepSeek AI" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "feat(cron): discover new products, sync Bol prices & publish Kennisbank article via DeepSeek AI" && git push)
