@@ -74,7 +74,7 @@ p { margin-bottom: var(--spacing-md); }
 .hero-content { 
   position: relative; 
   z-index: 2; 
-  max-width: 750px; 
+  max-width: min(35vw, 520px) !important; 
   padding-top: var(--spacing-xxl); 
   padding-bottom: var(--spacing-xxl); 
   text-align: left !important;
@@ -191,6 +191,7 @@ p { margin-bottom: var(--spacing-md); }
   .hero-content {
     padding-top: var(--spacing-xl);
     padding-bottom: var(--spacing-xl);
+    max-width: 100% !important;
   }
   .hero-content h1 {
     font-size: 2rem;
