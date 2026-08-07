@@ -98,17 +98,18 @@
   border: 1px solid rgba(227, 123, 64, 0.3);
   border-left: 5px solid var(--secondary);
   border-radius: 16px;
-  padding: 24px;
+  padding: 20px 24px;
   margin: 2.5em 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 14px;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
   font-style: normal;
 }
 
 .prose blockquote p {
-  margin: 0;
+  margin: 0 !important;
   font-weight: 700;
   color: var(--primary);
   font-size: 1.05rem;
@@ -129,7 +130,8 @@
   box-shadow: 0 4px 14px rgba(227, 123, 64, 0.3);
   transition: 0.3s;
   white-space: nowrap;
-  margin-top: 16px !important;
+  margin-top: 0 !important;
+  flex-shrink: 0;
 }
 
 .prose blockquote a:hover {
@@ -137,7 +139,12 @@
   transform: translateY(-2px);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
+  .prose blockquote {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 14px !important;
+  }
   .prose blockquote a {
     width: 100%;
     justify-content: center;
