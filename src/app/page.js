@@ -4,6 +4,7 @@ import FaqAccordion from '../components/FaqAccordion';
 import daktentenData from '../data/daktenten.json';
 import accessoiresData from '../data/accessoires.json';
 import Link from 'next/link';
+import { Tent, Car, Bike, Battery, Compass } from 'lucide-react';
 
 export default function Home() {
   const faqs = [
@@ -21,7 +22,7 @@ export default function Home() {
         <div className="container hero-content">
           <span className="badge">🏕️ Jouw avontuur begint hier</span>
           <h1>Ontdek de Ultieme Vrijheid van Autokamperen</h1>
-          <p>Onafhankelijk vergelijken van Daktenten, Dakdragers, Fietsendragers, Powerstations en Outdoor Gear op Bol.com.</p>
+          <p>Onafhankelijk vergelijken van Daktenten, Dakdragers, Fietsendragers, Powerstations en Outdoor Gear.</p>
           <div className="flex gap-md" style={{flexWrap: 'wrap'}}>
             <Link href="/daktenten" className="btn btn-primary">Bekijk Daktenten</Link>
             <Link href="/dakdragers" className="btn btn-primary" style={{backgroundColor: 'var(--primary)'}}>Dakdragers & Gear</Link>
@@ -49,29 +50,45 @@ export default function Home() {
             <h2>Ontdek onze 5 Categorieën</h2>
             <p>Vind direct alle benodigdheden voor jouw ideale autokampeertrip.</p>
           </div>
-          <div className="grid grid-cols-4">
-            <Link href="/daktenten" className="card" style={{ padding: 'var(--spacing-lg)', textCenter: 'center', cursor: 'pointer' }}>
-              <div style={{ fontSize: '2.5rem', marginBottom: '10px' }}>🏕️</div>
+          <div className="grid grid-cols-5">
+            <Link href="/daktenten" className="card" style={{ padding: 'var(--spacing-lg)', textAlign: 'center', cursor: 'pointer' }}>
+              <div style={{ marginBottom: '10px', display: 'flex', justifyContent: 'center', color: 'var(--primary)' }}>
+                <Tent size={40} />
+              </div>
               <h3>Daktenten</h3>
               <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Softshell & Hardshell modellen vergelijken.</p>
             </Link>
 
-            <Link href="/dakdragers" className="card" style={{ padding: 'var(--spacing-lg)', textCenter: 'center', cursor: 'pointer' }}>
-              <div style={{ fontSize: '2.5rem', marginBottom: '10px' }}>🚗</div>
+            <Link href="/dakdragers" className="card" style={{ padding: 'var(--spacing-lg)', textAlign: 'center', cursor: 'pointer' }}>
+              <div style={{ marginBottom: '10px', display: 'flex', justifyContent: 'center', color: 'var(--primary)' }}>
+                <Car size={40} />
+              </div>
               <h3>Dakdragers</h3>
               <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Thule WingBar, Menabo & pasvorm gidsen.</p>
             </Link>
 
-            <Link href="/fietsendragers" className="card" style={{ padding: 'var(--spacing-lg)', textCenter: 'center', cursor: 'pointer' }}>
-              <div style={{ fontSize: '2.5rem', marginBottom: '10px' }}>🚲</div>
+            <Link href="/fietsendragers" className="card" style={{ padding: 'var(--spacing-lg)', textAlign: 'center', cursor: 'pointer' }}>
+              <div style={{ marginBottom: '10px', display: 'flex', justifyContent: 'center', color: 'var(--primary)' }}>
+                <Bike size={40} />
+              </div>
               <h3>Fietsendragers</h3>
               <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Trekhaakdragers voor E-Bikes & mountainbikes.</p>
             </Link>
 
-            <Link href="/accu-en-power" className="card" style={{ padding: 'var(--spacing-lg)', textCenter: 'center', cursor: 'pointer' }}>
-              <div style={{ fontSize: '2.5rem', marginBottom: '10px' }}>⚡</div>
+            <Link href="/accu-en-power" className="card" style={{ padding: 'var(--spacing-lg)', textAlign: 'center', cursor: 'pointer' }}>
+              <div style={{ marginBottom: '10px', display: 'flex', justifyContent: 'center', color: 'var(--primary)' }}>
+                <Battery size={40} />
+              </div>
               <h3>Accu's & Power</h3>
               <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Bluetti, EcoFlow powerstations & solar.</p>
+            </Link>
+
+            <Link href="/accessoires" className="card" style={{ padding: 'var(--spacing-lg)', textAlign: 'center', cursor: 'pointer' }}>
+              <div style={{ marginBottom: '10px', display: 'flex', justifyContent: 'center', color: 'var(--primary)' }}>
+                <Compass size={40} />
+              </div>
+              <h3>Accessoires</h3>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Skottelbraais, luifels & kampeergear.</p>
             </Link>
           </div>
         </div>
@@ -131,17 +148,44 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SFEER GALERIJ */}
+      {/* BLOG / GUIDES */}
       <section className="section section-bg-light">
         <div className="container">
-          <div className="section-header">
-            <h2>Inspiratie uit het Wild</h2>
+          <div className="flex items-center justify-between" style={{marginBottom: 'var(--spacing-lg)'}}>
+            <h2>Nieuwste Koopgidsen & Kampeertips</h2>
+            <Link href="/kennisbank" style={{fontWeight: 600, color: 'var(--secondary)'}}>Bekijk alle artikelen &rarr;</Link>
           </div>
-          <div className="gallery-grid">
-            <div className="gallery-item"><img src="https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sfeer" /></div>
-            <div className="gallery-item"><img src="https://images.unsplash.com/photo-1533575770077-052fa2c609fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sfeer" /></div>
-            <div className="gallery-item"><img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sfeer" /></div>
-            <div className="gallery-item"><img src="https://images.unsplash.com/photo-1525811902-f2342640856e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sfeer" /></div>
+          <div className="grid grid-cols-3">
+            <Link href="/daktenten" className="card">
+              <div className="card-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Hardshell vs Softshell" className="card-img" />
+              </div>
+              <div className="card-content">
+                <span style={{ fontSize: '0.8rem', color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase' }}>Koopgids</span>
+                <h3>Hardshell vs Softshell: Wat is de beste keuze?</h3>
+                <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>Ontdek de verschillen in opzettijd, leefruimte en aerodynamica zodat je de perfecte tent kiest.</p>
+              </div>
+            </Link>
+            <Link href="/dakdragers" className="card">
+              <div className="card-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1533575770077-052fa2c609fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Dakdragers kiezen" className="card-img" />
+              </div>
+              <div className="card-content">
+                <span style={{ fontSize: '0.8rem', color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase' }}>Keuzehulp</span>
+                <h3>Welke dakdragers passen op mijn auto?</h3>
+                <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>Een complete gids voor open en gesloten railing, gladde daken en vaste montagepunten.</p>
+              </div>
+            </Link>
+            <Link href="/accu-en-power" className="card">
+              <div className="card-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Off-grid stroom" className="card-img" />
+              </div>
+              <div className="card-content">
+                <span style={{ fontSize: '0.8rem', color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase' }}>Kampeertips</span>
+                <h3>Off-grid stroom: Alles over Powerstations</h3>
+                <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>Hoeveel capaciteit heb je nodig voor een koelbox, laptop en verlichting tijdens het wildkamperen?</p>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
