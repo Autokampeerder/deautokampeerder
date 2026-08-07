@@ -13,19 +13,26 @@ Een daktent is precies wat de naam doet vermoeden: een tent die je op het dak va
 ## De Evolutie van Kamperen
 Van oudsher kennen we allemaal het ritueel: haringen in de grond slaan, stoeien met tentstokken, en hopen dat de grond niet te scheef of nat is. Met de komst van daktenten is dat verleden tijd. Een daktent is ontworpen voor de moderne roadtripper. Zodra je parkeert, ben je eigenlijk al klaar.
 
+Wil je weten of jouw auto geschikt is? Lees dan ook onze gids: [Past een daktent op mijn auto? Alles over daklast en dakdragers](/kennisbank/past-een-daktent-op-mijn-auto).
+
 ## Voordelen van een daktent
 
-1. **Snelheid:** Een hardshell daktent staat vaak al binnen 30 seconden. Zelfs een softshell daktent kost maximaal 5 minuten.
-2. **Altijd vlak:** Zolang je auto enigszins recht staat, lig je vlak. Geen last meer van stenen in je rug.
-3. **Droog en Veilig:** Omdat je op 2 meter hoogte ligt, heb je geen last van optrekkend vocht, modder of ongedierte (en in sommige landen: roofdieren!).
-4. **Matras en beddengoed blijven liggen:** Je klapt de tent in mét je slaapzakken en kussens erin. Dat scheelt een hoop ruimte in de kofferbak.
+1. **Snelheid:** Een hardshell daktent zoals de [Trekker Daktent Voyager M](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dtrekker%2Bdaktent) staat vaak al binnen 30 seconden dankzij krachtige gasveren.
+2. **Altijd vlak:** Zolang je auto enigszins recht staat, lig je vlak. Geen last meer van stenen of hobbels in je rug.
+3. **Droog en Veilig:** Omdat je op 2 meter hoogte ligt, heb je geen last van optrekkend vocht, modder of koud grondwater.
+4. **Matras en beddengoed blijven liggen:** Je klapt de tent in mét je slaapzakken en kussens erin. Dat scheelt een hoop kofferbakruimte voor je [outdoor accessoires & Skottelbraais](/accessoires).
 
 ![Daktent uitgeklapt op een sfeervolle kampeerplek](/images/blue-car-roof-tent.png)
 
-## Hardshell vs Softshell
+## Hardshell vs Softshell: Welk type past bij jou?
 Grofweg zijn daktenten onder te verdelen in twee categorieën:
 
-- **Hardshell:** Gemaakt van een harde kap (ABS plastic of aluminium). Ze klappen vaak recht omhoog of in een driehoek open met behulp van gasveren. Ze zijn extreem snel en aerodynamisch, maar vaak wat duurder en zwaarder.
-- **Softshell:** Lijken meer op een traditionele tentstof en klappen open als een boek. Hierdoor steekt de helft van de tent vaak over de auto heen. Dit biedt veel leefruimte (ideaal voor gezinnen), maar kost iets meer tijd om op te zetten.
+- **Hardshell Daktenten:** Gemaakt van een harde ABS- of aluminium koffer. Ze klappen supersnel open en zijn zeer gestroomlijnd op de snelweg. Bekijk bijvoorbeeld de populaire [Monster Shop Auto Daktent](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dmonster%2Bshop%2Bdaktent).
+- **Softshell Daktenten:** Klappen open als een boek en bieden een enorme leefruimte voor gezinnen, zoals de [Offlander Fold 4 Daktent](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fs%2F%3Fsearchtext%3Dofflander%2Bfold%2B4).
 
-*Benieuwd welke daktent op jouw auto past? Lees dan ons artikel over daklast en dakdragers!*
+Voor een gedetailleerde vergelijking lees je onze diepgaande gids: [Hardshell vs Softshell Daktent: 7 Overweldigende Voordelen](/kennisbank/voordelen-van-een-hardshell-daktent-ten-opzichte-van-een-softshell).
+
+## Maak je uitrusting compleet
+Naast een daktent heb je uiteraard een goede set [gecertificeerde dakdragers](/dakdragers) nodig. Wil je tijdens het kamperen lekker buiten koken? Denk dan aan de iconische [CADAC Dometic Carri Chef 40 BBQ](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fcarri-chef-40-bbq-paella-pan%2F9300000195394468%2F) of creëer direct schaduw met de [Waterdichte Autoluifel (300x200 cm)](https://partner.bol.com/click/click?p=2&t=url&s=1536170&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fwaterdichte-autoluifel-voor-campers-en-suv-s-300x200-cm%2F9300000250962807%2F).
+
+Benieuwd naar het volledige aanbod? Bekijk direct al onze [daktenten vergelijkingen](/daktenten).
