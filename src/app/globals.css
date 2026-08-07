@@ -49,7 +49,7 @@ p { margin-bottom: var(--spacing-md); }
 .nav-links a:hover { color: var(--secondary); }
 
 .hero-full { position: relative; min-height: 85vh; display: flex; align-items: center; background: var(--primary); color: white; overflow: hidden; }
-.hero-bg { position: absolute; inset: 0; background: url('/images/rooftop-cabin-smart-top-3.png') center/cover no-repeat; opacity: 0.5; }
+.hero-bg { position: absolute; inset: 0; background: url('https://images.unsplash.com/photo-1776725120960-32c1e0194cc7?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb') center/cover no-repeat; opacity: 0.4; }
 .hero-content { position: relative; z-index: 2; max-width: 800px; padding: var(--spacing-xxl) 0; }
 .hero-content h1, .hero-content p { color: white; text-shadow: 0 2px 10px rgba(0,0,0,0.3); }
 .badge { display: inline-block; background: rgba(255,255,255,0.2); backdrop-filter: blur(4px); padding: 6px 16px; border-radius: 50px; font-size: 0.9rem; font-weight: 600; margin-bottom: var(--spacing-md); border: 1px solid rgba(255,255,255,0.3); }
