@@ -13,7 +13,7 @@ export function getAllPosts() {
   const fileNames = fs.readdirSync(contentDirectory);
   
   const allPosts = fileNames
-    .filter(fileName => fileName.endsWith('.md'))
+    .filter(fileName => fileName.endsWith('.md') && !fileName.toLowerCase().startsWith('readme'))
     .map(fileName => {
       const slug = fileName.replace(/\.md$/, '');
       const fullPath = path.join(contentDirectory, fileName);
